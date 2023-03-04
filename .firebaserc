@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "portfolio-mcg",
+    "portfolio": "portfolio-frontend-mg"
+  },
+  "targets": {},
+  "etags": {}
+}
