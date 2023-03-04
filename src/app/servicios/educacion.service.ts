@@ -13,10 +13,10 @@ import { Educacion } from "../interfaces/educacion";
     providedIn: 'root'
   })
   export class EducacionService{
-private apiEdu= 'https://portf-backend.onrender.com/api';
+private apiEdu= environment.api;
 
     constructor(private http:HttpClient){
-        console.log("El servicio educación está corriendo.")
+      //  console.log("El servicio educación está corriendo.")
     }
 
  public obtenerEducacion():Observable<Educacion[]>{

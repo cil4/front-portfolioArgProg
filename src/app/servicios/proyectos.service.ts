@@ -11,10 +11,10 @@ import { Proyectos } from "../interfaces/proyecto";
   })
   export class ProyectosService{
 
-  private  apiProyectos= 'https://portf-backend.onrender.com/api';
+  private  apiProyectos= environment.api;
 
     constructor(private http:HttpClient){
-        console.log("El servicio proyectos está corriendo.")
+        //console.log("El servicio proyectos está corriendo.")
     }
 public obtenerProyectos():Observable<Proyectos[]>{
   return this.http.get<Proyectos[]>(`${this.apiProyectos}/proyectos/lista`);

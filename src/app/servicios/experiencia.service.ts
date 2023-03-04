@@ -13,9 +13,9 @@ import { Experiencia } from "../interfaces/experiencia";
     providedIn: 'root'
   })
   export class ExperienciaService{
-private apiExp= 'https://portf-backend.onrender.com/api';
+private apiExp= environment.api;
     constructor(private http:HttpClient){
-        console.log("El servicio experiencia está corriendo.")
+        //console.log("El servicio experiencia está corriendo.")
     }
 
  public   obtenerExperiencia():Observable<Experiencia[]>{

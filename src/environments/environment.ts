@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   
   apiLog: 'https://portf-backend.onrender.com/api/login',
+  api: 'https://portf-backend.onrender.com/api'
  
 };
 

@@ -12,10 +12,10 @@ import { Persona } from '../interfaces/persona';
 })
 export class PortfolioService {
 
-private apiServerUrl= 'https://portf-backend.onrender.com/api';
+private apiServerUrl= environment.api;
 
   constructor(private http:HttpClient) { 
-console.log("El servicio portfolio persona está corriendo")
+//console.log("El servicio portfolio persona está corriendo")
   }
 
  public obtenerPersona(idpersona:number):Observable<Persona>{

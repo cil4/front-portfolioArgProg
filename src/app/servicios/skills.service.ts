@@ -9,10 +9,10 @@ import { Skills } from "../interfaces/skills";
     providedIn: 'root'
   })
   export class SkillsService{
-private apiSkills= 'https://portf-backend.onrender.com/api';
+private apiSkills= environment.api;
 
     constructor(private http:HttpClient){
-        console.log("El servicio skills está corriendo.")
+      //  console.log("El servicio skills está corriendo.")
     }
   public  getById(idskills: number): Observable<Skills> {
         return this.http.get<Skills>(`${this.apiSkills}/skills/${idskills}`);

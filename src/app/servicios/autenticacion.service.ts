@@ -12,7 +12,7 @@ import { LoginService } from './login.service';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  private apiAuth = 'https://portf-backend.onrender.com/api/login';
+  private apiAuth = environment.apiLog;
 user:LoginUsuario={username:'', password:'', token:''};
 //persona!:Persona; 
 loggedIn():void{

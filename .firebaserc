@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "portfolio-mcg",
+    "default": "portfolio-frontend-mg",
     "portfolio": "portfolio-frontend-mg"
   },
   "targets": {},

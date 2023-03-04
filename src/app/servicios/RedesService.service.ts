@@ -8,10 +8,10 @@ import { environment } from 'src/environments/environment';
 @Injectable()
 export class RedesServiceService {
 
-private apiRed= 'https://portf-backend.onrender.com/api';
+private apiRed= environment.api;
 
 constructor(private http:HttpClient) {
-    console.log("El servicio redes está corriendo.")
+   // console.log("El servicio redes está corriendo.")
 
  }
  public obtenerRedes():Observable<Redes[]>{
