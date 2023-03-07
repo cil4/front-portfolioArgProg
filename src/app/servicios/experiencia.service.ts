@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Expression } from "@angular/compiler";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
-import { environment } from "environments/environment";
+import { environment } from "src/app/environments/environment";
 import { Experiencia } from "../interfaces/experiencia";
 
 

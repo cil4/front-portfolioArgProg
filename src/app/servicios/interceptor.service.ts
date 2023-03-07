@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpEvent, HttpInterceptor, HttpHandler, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AutenticacionService } from './autenticacion.service';
-import { environment } from 'environments/environment';
+import { environment } from 'src/app/environments/environment';
 
 @Injectable({
   providedIn: 'root'
