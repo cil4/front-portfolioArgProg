@@ -16,7 +16,7 @@
   margin: 50px auto ;
   padding: 0 20px;
   position: relative;
-  color: black;
+  color: #ffffff;
  
 }
 
@@ -28,7 +28,7 @@
 }
 
 .wrapper .row section{
-  background: #fff;
+  background: #635F5F;
   border-radius: 5px;
   word-wrap: break-word;
   padding: 18px;
